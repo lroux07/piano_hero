@@ -1,5 +1,8 @@
 let container = document.querySelector('.container');
 
+
+// CREATE CLAVIER
+
 for(let i = 0; i < 2; i++) {
     let white = document.createElement('div');
     white.classList.add('white');
@@ -59,6 +62,7 @@ white.classList.add('white');
 container.appendChild(white);
 
 
+// CONFIG CLAVIER
 
 navigator.requestMIDIAccess().then(onMIDISuccess, onMIDIFailure);
 
@@ -79,4 +83,7 @@ function onMIDIMessage(event) {
       str += `0x${character.toString(16)} `;
     }
     console.log(str);
-  }
+}
+
+
+// MAPING

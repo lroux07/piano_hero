@@ -8,25 +8,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1e1e1e;
 }   
 
 .container {
     display: flex;
-    /* background-color: #353535; */
-    /* padding: 2rem; */
+    background-color: #353535;
+    padding: 2rem;
     border: 1px solid black;
     position: absolute;
     bottom: 0;
     border: none;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
+    -webkit-box-shadow: 0px -3px 15px 5px rgba(0,0,0,0.37); 
+    box-shadow: 0px -3px 15px 5px rgba(0,0,0,0.37);
 }
 
 .white {
     position: relative;
-    height: 13rem;
+    height: 11rem;
     width: 3rem;
     background-color: white;
     border: 1px solid black;
+    border-radius: 0 0 4px 4px;
 }
 
 .black {
@@ -36,4 +40,5 @@ body {
     background-color: black;
     left: 70%;
     z-index: 1;
+    border-radius: 0 0 4px 4px;
 }
