@@ -108,8 +108,7 @@ mappingBtn.addEventListener('click', () => {
     isMapping = true;
 
     function mapping() {
-        // white.classList.add = 'blue';
-        white.style.backgroundColor('blue');
+        white.classList.add('white-active');
     }
     mapping();
 });
