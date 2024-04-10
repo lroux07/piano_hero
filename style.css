@@ -11,6 +11,27 @@ body {
     background-color: #1e1e1e;
 }   
 
+.mappingBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin: 10rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.37);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.mappingBtn:hover {
+    background-color: #d4d4d4;
+    transition: 0.3s;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.37);
+}
+
 .container {
     display: flex;
     background-color: #353535;
